@@ -1,14 +1,16 @@
 ext.versions = [
-    androidGradlePlugin: '4.1.0',
-    compileSdk         : 29,
+    androidGradlePlugin: '4.1.2',
+    compileSdk         : 30,
     minSdk             : 18,
-    targetSdk          : 29,
-    buildTools         : '30.0.1',
+    targetSdk          : 30,
+    buildTools         : '30.0.3',
     supportCoreUtils   : '1.0.0',
-    kotlinVersion      : '1.4.10',
+    kotlinVersion      : '1.4.30',
     v4Support          : '1.0.0',
     javaVersion        : 1.8,
-    ndkVersion         : '21.3.6528147' // Also update 'platform/android/detect.py#get_project_ndk_version()' when this is updated.
+    // Also update 'platform/android/detect.py#get_project_ndk_version()' when this is updated.
+    // ndk r22 is not supported yet
+    ndkVersion         : '21.4.7075529'
 
 ]
 
